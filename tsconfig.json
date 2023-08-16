@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "ESNext",
+        "strict": false,
+        "target": "ES6",
+        "lib": ["ESNext", "DOM"],
+        "jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        
+        "experimentalDecorators": true,
+      }    
+}

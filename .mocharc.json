@@ -1,0 +1,12 @@
+{
+    "require": [
+        "source-map-support/register",
+        "ts-node/register"
+    ],
+    "extension": ["js"],
+    "spec": ["dist/test/**/*.js"],
+    "node-option": [
+        "experimental-specifier-resolution=node",
+        "loader=ts-node/esm"
+    ]
+}
