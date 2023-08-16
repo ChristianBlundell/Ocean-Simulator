@@ -1,0 +1,9 @@
+Debugging notes
+
+When wrist was kinematic, the hand wouldn't be placed correctly
+when there was a hinge joint and the wrist was mirrored. When the
+wrist was dynamic, though, the hand ended up being placed correctly.
+
+Now armsLR() is working. I hope the rest of the player can be working soon.
+I'm not sure when or why the regular / special layout choices need to be made,
+but it's working now that they're easy to switch between.
